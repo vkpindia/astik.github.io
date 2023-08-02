@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+	<head>
+		<title> html complete file</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="My first Web Page."/>
+		<meta name="keywords" content="html,css,bootstrap"/>
+		<meta name="auther" content="Astik Mishra"/>
+		<meta name="refresh" content="30"/>
+		<meta name="viewport" content="width=device-width initial-scale=1.0"/>
+		
+		<style>
+			
+			body{
+			 background-color:#000000;
+			 font-family: 'Quicksand', sans-serif;
+			}
+			
+			div.heading p{
+				
+				text-align:center;
+				color:#ff3e00;
+				font-size:64px;
+				margin: 0;
+			}
+			
+			nav{
+				display: flex;
+				justify-content: center;
+			}
+			ul{
+				list-style-type: none;
+				display: flex;
+				padding: 0px;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+	         
+			ul.navbar{
+				
+				
+				background-color: #ff3e00;
+				width: 265px;
+				border-radius: 3px;
+			}
+			
+			li.nav-item .link{
+				padding:5px 10px;
+				display: inline-block;
+				color: white;
+			}
+			
+			li.nav-item .link:hover{
+				color: black;
+			}
+			
+			li.nav-item .link:visited{
+				color: white;
+			}
+			
+			li.nav-item .link:active{
+				color: grey;
+			}
+			
+			main{
+				padding-top: 20px;
+			}
+
+			.container{
+				max-width: 1220px;
+				margin: 0 auto;
+			}
+			
+			li.box div{
+				border: #323030;
+				list-style-type: none;
+				background-color:#323030;
+				width: 340px;
+				border-radius: 10px;
+				padding: 10px;
+				margin-bottom: 20px;
+				color: white;
+				text-align:center;
+				box-shadow: 0 0 6px #f5f5f5;
+				max-height: 220px;
+			}
+			
+			li.box{
+			  padding: 0 10px;
+			}
+			
+			li.box h3{
+			  font-size: 1.5rem;
+			}
+			li.box h3 span{
+			  background-color: black;
+			  padding: 2px 10px;
+			  display: inline-block;
+			  border-radius: 5px;
+			}
+			li.box p{
+			  padding:10px;
+			}
+			
+			li.box a{
+			  color: white;
+			  padding: 5px 10px;
+			  display: inline-block;
+			  color:#ff3e00;
+			  background-color: #2c2424;
+			  border-radius: 5px;
+			  margin: 5px;
+			}
+			
+			li.box a:hover{
+			  color: yellow;
+			}
+			footer{
+				color: #fff;
+				text-align: center;
+				font-size: 14px;
+			}
+			
+			.footer-copyright{
+				border-top: 1px solid #fff;
+				padding: 15px;
+				display: inline-block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="heading">
+				<p>ANCHORS</p>
+			</div>
+			
+			<nav>
+				<ul class="navbar">
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pen-tool"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+						    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>	
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="link" href="" target="_blank">
+							 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe" rel="noopener noreferrer"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+
+						</a>
+					</li>
+					
+				</ul>
+			</nav>
+		</header>	
+		
+		<main>
+			<div class="container">
+				<ul>
+					<li class="box">
+						<div>
+							<h3>The <span>href</span> attributes</h3>
+							<p>The href value is the url of the linked page.</p>
+							<p><a href="" target="_blank">Click Me</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>title</span> attributes</h3>
+							<p>The title attributes value appears as a tool-tip.</p>
+							<p><a href="" target="_blank">Hover me</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>rel</span> attributes</h3>
+							<p>It specifies the relationship between the current document and the linked documents</p>
+							<p><a href="" target="_blank">No follow</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>Open the <span>email</span> program</h3>
+							<p>open your default email program using the mailto value set of the href property</p>
+							<p><a href="" target="_blank">Send email</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>Open the <span>phone</span> program</h3>
+							<p>open your default phone program using the tel value set to the href property</p>
+							<p><a href="" target="_blank">Call+7268909968</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>Link to a <span>script</span></h3>
+							<p>You can link to a script and execute it with a single Click</p>
+							<p><a href="" target="_blank">Reveal</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>Link to <span>section</span></h3>
+							<p>you can link to different sections of the same page by linking to elements by id</p>
+							<p><a href="" target="_blank">Go</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>download</span> attribute</h3>
+							<p>Turn a link into a download link</p>
+							<p><a href="" target="_blank">Download</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>ping</span> attribute</h3>
+							<p>The ping attribute specifies a space seprated list of urls to ping when the link is clicked</p>
+							<p><a href="" target="_blank">With a Ping</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>target </span> and <span> rel</span> attribute</h3>
+							<p>The target attribute specifes where to open the document </p>
+							<p><a href="" target="_blank">New tab</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>type</span> attribute</h3>
+							<p>The type attribute is used to specify the mime type of the link target</p>
+							<p><a href="" target="_blank">HTML</a><a href="" target="_blank">Read</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3>The <span>target</span> attribute</h3>
+							<p><a href=""target="_blank">same window(target _self)</a></p>
+							<p><a href=""target="_blank">new tab/window(target _blank)</a></p>
+						</div>
+					</li>
+					<li class="box">
+						<div>
+							<h3><span>Style</span> anchor tag based on sates</h3>
+							<img src="images/virat.jpg" height="60" width="45">
+							<p style="margin:0"><a href="" target="_blank">I change</a></p>
+							
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<h4>News</h4>
+				<p>August 02,2023</p>
+				
+				<p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+				<p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+				<span class="footer-copyright">Made with <span>❤️</span> by Tapas Adhikary. If you care, please give a <span>⭐</span> to the GitHub Repo .</span>
+			</div>
+		</footer>
+					
+	</body>
+</html>
